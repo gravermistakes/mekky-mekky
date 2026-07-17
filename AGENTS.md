@@ -58,5 +58,5 @@ Witness chain at `mechsuit_witness.log`. Every phase records `epoch|phase|sha256
 ## Dependencies
 
 **Runtime**: OCaml 5.1+ (for compilation only — binary is static)
-**Optional**: jq (for legacy transform scripts), python3 (for lance report scripts)
+**Anything that used to be python is to be rebuilt in production grade languages**
 **External tools**: NONE. Everything is native.
