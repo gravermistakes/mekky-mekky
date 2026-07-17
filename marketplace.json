@@ -1,13 +1,13 @@
 {
   "name": "mechsuit",
   "version": "1.0.0",
-  "title": "MECHSUIT — Opaca-Integrated Exploit Discovery Pipeline",
+  "title": "MECHSUIT — Opaca-Integrated Exploit Discovery System",
   "author": "gravermistakes",
   "license": "ESL-1.0",
   "governance": "ANALGAPES/KEEL",
-  "description": "Self-contained actor-model exploit discovery. Surface mapping (opaca_noir), vulnerability scanning (opaca_vigolium), push-propagation flow ranking, and 7-gate triage — all native OCaml 5. Single binary, zero external deps.",
+  "description": "Self-contained actor-based exploit discovery. Surface mapping (opaca_noir), vulnerability scanning (opaca_vigolium), push-propagation flow ranking, and 7-gate triage — all native OCaml 5. Zero external deps.",
   "category": "security",
-  "tags": ["exploit-discovery", "smart-contract", "audit", "actor-model", "ocaml", "immunefi", "bounty", "opaca"],
+  "tags": ["exploit-discovery", "smart-contract", "audit", "actor-based", "ocaml", "immunefi", "bounty", "opaca"],
   "runtime": {
     "language": "ocaml",
     "version": ">=5.1.0",
@@ -15,9 +15,8 @@
     "build": "src/build.sh"
   },
   "triggers": [
-    "mechsuit", "suit up", "run the pipeline",
-    "full audit", "scan this", "put the suit on", "opaca"
-  ],
+    "mechsuit", "suit up", "get in the robot",
+    "full audit", "scan this", "put the suit on"],
   "platforms": ["linux-x86_64", "linux-aarch64", "darwin-arm64"],
   "size": "<1MB",
   "distribution": {
