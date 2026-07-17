@@ -3,7 +3,7 @@ name: mechsuit
 version: 2.0.0
 ecosystem: [evm, monero]
 pending_ecosystems: [solana, move, bitcoin, cosmos]
-triggers: [audit, security, vulnerability, smart contract, crypto, exploit, bounty, suit up, run the pipeline, full audit, recursive scan, opaca scan]
+triggers: [audit, security, vulnerability, smart contract, crypto, exploit, bounty, suit up, get in the robot, full audit, recursive scan, opaca scan]
 toolchain: ocaml-4.14
 dependencies: []
 author: KAIROS-0
@@ -76,7 +76,7 @@ MECHSUIT_TARGET=/path/to/contracts ./harness/run.sh
 
 ## Triggers
 
-`mechsuit`, `suit up`, `run the pipeline`, `full audit`, `recursive scan`, `opaca scan`, `scan this`
+`mechsuit`, `suit up`, `get in the robot`, `full audit`, `recursive scan`, `opaca scan`, `scan this`
 
 ## File Layout
 
