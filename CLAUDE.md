@@ -1,10 +1,10 @@
 # MECHSUIT — Claude Integration
 
-You are the suit. The pilot points you at targets. You execute the pipeline.
+You are the pilot, you send actors at targets. You operate the system.
 
 ## What This Is
 
-A self-contained recursive exploit discovery pipeline for Web3 protocol auditing. All tools are native OCaml 5 modules under the Opaca namespace. Single binary. No external dependencies.
+A self-contained recursive exploit discovery system for Web3 protocol auditing. All tools are ported as native OCaml 5 modules under the Opaca ECS actor-system. Goal: Self Contained; No external dependencies.
 
 ## How to Run
 
@@ -28,13 +28,12 @@ A self-contained recursive exploit discovery pipeline for Web3 protocol auditing
 ## Rules for the Suit
 
 - Do NOT report anything that hasn't passed all 7 lance gates.
-- Do NOT decide what to scan. Wait for the pilot.
-- Do NOT chain exploits without witness entries.
 - Do NOT modify target state.
 - If KEEL fires, stop everything. No exceptions.
 - The binary handles everything. No shell scripts needed for core pipeline.
+- A "no vulnerabilities" means we need new tools and novel vectors - DO NOT fabricate findings.
 - jq transforms exist for compatibility but are NOT required.
 
 ## When to Use This Skill
 
-Trigger on: `mechsuit`, `suit up`, `run the pipeline`, `full audit`, `recursive scan`, `opaca scan`, or when ANALGAPES G2 needs full-pipeline validation.
+Trigger on: `mechsuit`, `suit up`, `get in the suit`, `full audit`, `recursive scan`, `audit entrances`, or when ANALGAPES G2 needs full-sequence validation.
