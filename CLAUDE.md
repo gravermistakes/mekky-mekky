@@ -36,4 +36,4 @@ A self-contained recursive exploit discovery system for Web3 protocol auditing. 
 
 ## When to Use This Skill
 
-Trigger on: `mechsuit`, `suit up`, `get in the suit`, `full audit`, `recursive scan`, `audit entrances`, or when ANALGAPES G2 needs full-sequence validation.
+Trigger on: `mechsuit`, `suit up`, `get in the robot`, `full audit`, `recursive scan`, `audit entrances`, or when ANALGAPES G2 needs full-sequence validation.
