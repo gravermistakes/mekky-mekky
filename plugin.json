@@ -1,0 +1,29 @@
+{
+  "name": "mechsuit",
+  "version": "1.0.0",
+  "description": "Self-contained recursive exploit discovery pipeline. Opaca-integrated: noir surface mapping, vigolium vuln scan, push-prop solver, lance 7-gate triage — all native OCaml 5.",
+  "author": "gravermistakes",
+  "license": "ESL-1.0",
+  "homepage": "https://github.com/gravermistakes",
+  "skills": [
+    {
+      "name": "mechsuit",
+      "entry": "SKILL.md",
+      "triggers": [
+        "mechsuit", "suit up", "run the pipeline",
+        "full audit", "recursive scan", "pipeline run",
+        "opaca scan", "scan this"
+      ]
+    }
+  ],
+  "dependencies": {
+    "runtime": ["ocaml>=5.1"],
+    "optional": ["jq", "python3"]
+  },
+  "governance": {
+    "framework": "ANALGAPES",
+    "hard_stop": "KEEL",
+    "witness": "SHA256"
+  },
+  "architecture": "Opaca — all tools reimplemented as native OCaml modules. Zero external binaries."
+}
