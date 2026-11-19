@@ -1,0 +1,39 @@
+name: MECHSUIT behavioral contracts
+
+on:
+  push:
+    branches:
+      - main
+      - test/behavioral-contracts-v1
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/behavioral-contracts.yml'
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/behavioral-contracts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  behavioral-contracts:
+    name: OCaml unit + synthetic end-to-end acceptance tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Install OCaml 5.2
+        uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: '5.2'
+      - name: Run behavioral contracts
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y jq
+          bash tests/run.sh
